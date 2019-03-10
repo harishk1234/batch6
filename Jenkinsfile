@@ -4,7 +4,7 @@ pipeline{
         stage('compile'){
             steps{
                 echo "compile start"
-                git 'https://github.com/mithunholi/techfortune4.git'
+                git 'https://github.com/harishk1234/batch6.git'
                 sh label: '', script: '''mvn compile'''
                  echo "compile end"
             }
